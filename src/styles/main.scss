@@ -158,6 +158,11 @@ body {
         h2 {
             margin-bottom: 24px;
         }
+        
+        @media (max-width: 768px) {
+            justify-items: center;
+            padding-top: 16px;
+        }
     }
 
     &--image-full-width {
@@ -182,6 +187,8 @@ body {
                 position: relative;
                 left: 0;
                 width: 100%;
+                align-items: center;
+                padding-top: 8px;
             }
         }
     }
